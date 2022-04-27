@@ -1,0 +1,1 @@
+# deteccaodeobjetos_Flask_Opencv
