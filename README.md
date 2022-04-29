@@ -1,15 +1,15 @@
 # Detecção de Objetos Com Opencv e Flask
-<p align="center">
+<p align="left">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-Este e o resultado do trabalho de aprendizagem da turma de Analise e Desenvolvimento de sistemas da Faculdade Pitagoras de Ribeirão das Neves
+Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolvimento de sistemas da Faculdade Pitágoras de Ribeirão das Neves 
 
 
 ## Objetivo do Projeto
 
 Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
-detectado, estamos utilizando os seguintes recursos neste projeto.
+detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
 
 
 ## Ferramentas utilizadas
