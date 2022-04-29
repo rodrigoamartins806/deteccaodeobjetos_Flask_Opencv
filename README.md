@@ -23,7 +23,8 @@ Para executar o projeto e contribuir siga os seguintes passos.
 1. Crie uma conta no site https://pusher.com/  entre em channels e cria a sua conta e pegue as credenciais
 2. clone este projeto em sua maquina git clone https://github.com/rodrigoamartins806/deteccaodeobjetos_Flask_Opencv.git
 3. Altere as variaveis abaixo no arquivo **_camera.py_** 
-```pusher_client = pusher.Pusher(
+```python
+pusher_client = pusher.Pusher(
   app_id= ,
   key= ,
   secret= ,
@@ -32,7 +33,7 @@ Para executar o projeto e contribuir siga os seguintes passos.
 )
 ```
 4. No arquivo **_templates/index.html_** altere as informações abaixo com as suas credenciais do Pusher
-```
+```javascript
     Pusher.logToConsole = true;
      var pusher = new Pusher('<Key>', {
        cluster: '<Cluster>'
@@ -41,6 +42,6 @@ Para executar o projeto e contribuir siga os seguintes passos.
 5. Crie um ambiente virtual 
 6. Ative o seu Ambiente virtual
 7. Instale as dependencias do projeto com os seguinte comando
-```
+```python
 pip install -r .\requirements.txt
 ```
