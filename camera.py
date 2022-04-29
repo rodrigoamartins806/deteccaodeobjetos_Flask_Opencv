@@ -1,22 +1,18 @@
 from time import sleep
 import cv2
 
-from tinydb import TinyDB, Query, where
 import pusher
 
+#crie uma conta no site do pusher e preencha aqui os dados da sua conta
 pusher_client = pusher.Pusher(
-  app_id='1400493',
-  key='502ce40f4ff4013c4bc6',
-  secret='04b8df83456e1f022d6a',
-  cluster='sa1',
+  app_id='',
+  key='',
+  secret='',
+  cluster='',
   ssl=True
 )
 
-def sendmsg(tipo, msg):
-    
-    pusher_client.trigger('my-channel', str(tipo), {'message': str(msg)})
 
-    return True
 #treinamento para detecção de face
 face_cascade=cv2.CascadeClassifier("haarcascade_frontalface_alt2.xml")
 #treinamento para detecçao de corpo
@@ -27,9 +23,6 @@ ds_factor=0.6
 class VideoCamera(object):
     def __init__(self):
         self.video = cv2.VideoCapture(0)
-        self.a =0
-        # Define the codec and create VideoWriter object
-      
     
     def __del__(self):
         self.video.release()
@@ -48,7 +41,7 @@ class VideoCamera(object):
             contbody =  str(bodies.shape[0])
             cv2.rectangle(image,(x,y),(x+w,y+h),(242, 149, 71),2)
             cv2.putText(image, "Corpo: "+contbody, (x + 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (242, 149, 71), 2, cv2.LINE_AA)
-            #print(contbody) 
+
             #so envia notificação caso seja detectado
             if int(contbody) >= 1:
                 pusher_client.trigger('my-channel', 'corpo', {'message': str(contbody)})
@@ -61,12 +54,11 @@ class VideoCamera(object):
             contface =  str(face_rects.shape[0]) 
             cv2.rectangle(image,(x,y),(x+w,y+h),(164, 38, 223 ),2) 
             cv2.putText(image, "Rosto: "+contface, (x + 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (164, 38, 223 ), 2, cv2.LINE_AA)    
-            #print(contface) 
+
             #so envia notificação caso seja detectado
             if int(contface) >= 1:
                 pusher_client.trigger('my-channel', 'rosto', {'message': str(contface)})
-            break
-        
+            break     
 
         ret, jpeg = cv2.imencode('.jpg', image)
 
