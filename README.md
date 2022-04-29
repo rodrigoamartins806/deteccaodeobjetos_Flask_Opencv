@@ -26,9 +26,12 @@ detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
 Para executar o projeto e contribuir siga os seguintes passos.
 
 1. Crie uma conta no site https://pusher.com/  entre em channels e cria a sua conta e pegue as credenciais
-2. clone este projeto em sua maquina git clone https://github.com/rodrigoamartins806/deteccaodeobjetos_Flask_Opencv.git
+2. clone este projeto em sua maquina 
+```javascript
+git clone https://github.com/rodrigoamartins806/deteccaodeobjetos_Flask_Opencv.git
+```
 3. Altere as variaveis abaixo no arquivo **_camera.py_** 
-```python
+```javascript
 pusher_client = pusher.Pusher(
   app_id= ,
   key= ,
@@ -47,7 +50,7 @@ pusher_client = pusher.Pusher(
 5. Crie um ambiente virtual 
 6. Ative o seu Ambiente virtual
 7. Instale as dependencias do projeto com o seguinte comando
-```linux
+```javascript
 pip install -r .\requirements.txt
 ```
 
