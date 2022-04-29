@@ -5,4 +5,4 @@ haarcascade_fullbody.xml
 .env
 .gitignore
 /__pycache__
-__pycache__
+__pycache__/
