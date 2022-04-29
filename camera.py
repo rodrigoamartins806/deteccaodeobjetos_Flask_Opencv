@@ -2,14 +2,18 @@ from time import sleep
 import cv2
 
 import pusher
+from environs import Env
+
+env = Env()
+env.read_env()
 
 #crie uma conta no site do pusher e preencha aqui os dados da sua conta
 pusher_client = pusher.Pusher(
-  app_id='',
-  key='',
-  secret='',
-  cluster='',
-  ssl=True
+  app_id= env("app_id"),
+  key= env("key"),
+  secret= env("secret"),
+  cluster= env("cluster"),
+  ssl= env("ssl")
 )
 
 

@@ -4,3 +4,4 @@ Jinja2==3.1.1
 opencv-python==4.5.5.64
 pusher==3.2.0
 tinydb==4.7.0
+environs==9.5.0
