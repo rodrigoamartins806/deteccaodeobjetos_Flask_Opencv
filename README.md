@@ -54,5 +54,5 @@ pip install -r .\requirements.txt
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Tutor Rodrigo Martins</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 2</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/21059035?v=4" width=115><br><sub> Aluno 3</sub>](https://github.com/) |
+| [<img src="https://avatars.githubusercontent.com/u/104536088?s=400&u=8bf78f1d1e84628a3a633ca7198a7b7df9e59354&v=4" width=115><br><sub>Tutor Rodrigo Martins</sub>](https://github.com/rodrigoamartins806) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 2</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/21059035?v=4" width=115><br><sub> Aluno 3</sub>](https://github.com/) |
 | :---: | :---: | :---: | :---: 
