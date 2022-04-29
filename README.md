@@ -61,5 +61,5 @@ pip install -r .\requirements.txt
 | :---: | 
 ## Alunos
 
-|[<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 2</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/21059035?v=4" width=115><br><sub> Aluno 3</sub>](https://github.com/) |
-| :---: | :---: | :---: |
+|[<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 2</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/21059035?v=4" width=115><br><sub> Aluno 3</sub>](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |[<img src="https://avatars.githubusercontent.com/u/37315196?v=4" width=115><br><sub> Aluno 1</sub>](https://github.com/) |
+| :---: | :---: | :---: |:---: |:---: |
