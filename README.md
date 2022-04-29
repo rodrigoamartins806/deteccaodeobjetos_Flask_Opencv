@@ -1,4 +1,7 @@
 # Detecção de Objetos Com Opencv e Flask
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 Este e o resultado do trabalho de aprendizagem da turma de Analise e Desenvolvimento de sistemas da Faculdade Pitagoras de Ribeirão das Neves
 
@@ -8,9 +11,9 @@ Este e o resultado do trabalho de aprendizagem da turma de Analise e Desenvolvim
 Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
 detectado, estamos utilizando os seguintes recursos neste projeto.
 
->`Flask`
->`pusher`
->`opencv`
+`Flask`
+`pusher`
+`opencv`
 
 ## Executando o projeto
 
@@ -19,7 +22,7 @@ Para executar o projeto e contribuir siga os seguintes passos.
 1. Crie uma conta no site https://pusher.com/  entre em channels e cria a sua conta e pegue as credenciais
 2. clone este projeto em sua maquina git clone https://github.com/rodrigoamartins806/deteccaodeobjetos_Flask_Opencv.git
 3. Altere as variaveis abaixo no arquivo **_camera.py_** 
-> `pusher_client = pusher.Pusher(
+`pusher_client = pusher.Pusher(
   app_id= ,
   key= ,
   secret= ,
@@ -27,9 +30,13 @@ Para executar o projeto e contribuir siga os seguintes passos.
   ssl= 
 )`
 4. No arquivo **_templates/index.html_** altere as informações abaixo com as suas credenciais do Pusher
-> `
+`
     Pusher.logToConsole = true;
-     var pusher = new Pusher('<ID>', {
+     var pusher = new Pusher('<Key>', {
        cluster: '<Cluster>'
     });
 `
+5. Crie um ambiente virtual 
+6. Ative o seu Ambiente virtual
+7. Instale as dependencias do projeto com os seguinte comando
+`pip install -r .\requirements.txt`
