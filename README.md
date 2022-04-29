@@ -46,8 +46,8 @@ pusher_client = pusher.Pusher(
 ```
 5. Crie um ambiente virtual 
 6. Ative o seu Ambiente virtual
-7. Instale as dependencias do projeto com os seguinte comando
-```python
+7. Instale as dependencias do projeto com o seguinte comando
+```linux
 pip install -r .\requirements.txt
 ```
 

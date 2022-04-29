@@ -9,11 +9,11 @@ app.config.from_pyfile('settings.py')
 
 #crie uma conta no site do pusher e preencha aqui os dados da sua conta
 pusher_client = pusher.Pusher(
-  app_id= environ.get("app_id"),
-  key= environ.get("key"),
-  secret= environ.get("secret"),
-  cluster= environ.get("cluster"),
-  ssl= environ.get("ssl")
+  app_id= "",
+  key= "",
+  secret= "",
+  cluster= "",
+  ssl= ""
 )
 
 
