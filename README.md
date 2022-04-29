@@ -10,11 +10,16 @@ Este e o resultado do trabalho de aprendizagem da turma de Analise e Desenvolvim
 
 Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
 detectado, estamos utilizando os seguintes recursos neste projeto.
-```
-Flask
-pusher
-opencv
-```
+
+
+## Ferramentas utilizadas
+
+<a href="https://www.python.org/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="java" width="40" height="40"/> </a> 
+
+<a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" alt="firebase" width="40" height="40"/> </a>
+
+###
+
 
 ## Executando o projeto
 
