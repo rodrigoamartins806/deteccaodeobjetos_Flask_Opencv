@@ -28,8 +28,8 @@ Para executar o projeto e contribuir siga os seguintes passos.
 )`
 4. No arquivo **_templates/index.html_** altere as informações abaixo com as suas credenciais do Pusher
 > `
-Pusher.logToConsole = true;
+    Pusher.logToConsole = true;
      var pusher = new Pusher('<ID>', {
        cluster: '<Cluster>'
-     });
+    });
 `
