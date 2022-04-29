@@ -6,3 +6,4 @@ haarcascade_fullbody.xml
 .gitignore
 /__pycache__
 __pycache__/
+.flaskenv
