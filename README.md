@@ -11,7 +11,9 @@ Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolv
 Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
 detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
 
-## Requisitos/compatibilidade para executar o projeto
+## Ferramentas/compatibilidade para executar o projeto
+
+Para executar este projeto e importante que tenha o python instalado caso não tenha acesse este [link](https://www.python.org/downloads/), siga as instruções para baixar e istalar, lembre de configurar o path para usar o comando py, será necessario também um editor de sua preferencia, aqui listamos o [VScode]() e também o [Notepad++](https://notepad-plus-plus.org/downloads/v8.4/).
 
 |Descrição | Versão  | Supported          |
 | -------  | ------- | ------------------ |
