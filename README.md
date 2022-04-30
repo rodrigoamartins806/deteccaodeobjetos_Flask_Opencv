@@ -16,7 +16,7 @@ detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
 |Descrição | Versão  | Supported          |
 | -------  | ------- | ------------------ |
 | Python   | 3.x     | :white_check_mark: |
-| VSCODE   | 1.66    | :white_check_mark: |
+| VScode   | 1.66    | :white_check_mark: |
 | Notepad++| 8.x     | :white_check_mark: |
 
 ## Linguagens e ferramentas utilizadas
