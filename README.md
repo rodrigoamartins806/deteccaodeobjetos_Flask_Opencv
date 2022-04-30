@@ -9,8 +9,6 @@ Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolv
 >_*O nosso sucesso depende da nossa capacidade de aprender e não de saber tudo.*_
 
 
-
-
 ## Objetivo do Projeto
 
 Este projeto tem o objetivo de detectar objetos e renderizar este processo em uma página Web em tempo real e com uma sinalização do que foi
