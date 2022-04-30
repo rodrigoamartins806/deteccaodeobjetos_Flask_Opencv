@@ -6,6 +6,10 @@
 Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolvimento de sistemas da Faculdade Pitágoras Unidade Ribeirão das Neves do 2º e 3º Período do ano de 2022, projeto realizado para fins de aprendizagem e demonstração dos conhecimentos adquiridos em suas aulas.
 
 
+>_*O nosso sucesso depende da nossa capacidade de aprender e não de saber tudo.*_
+>__Autor desconhecido_
+
+
 ## Objetivo do Projeto
 
 Este projeto tem o objetivo de detectar objetos e renderizar este processo em uma página Web em tempo real e com uma sinalização do que foi
