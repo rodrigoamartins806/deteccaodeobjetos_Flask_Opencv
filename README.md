@@ -11,8 +11,15 @@ Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolv
 Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
 detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
 
+## Requisitos/compatibilidade para executar o projeto
 
-## Ferramentas utilizadas
+|Descrição | Versão  | Supported          |
+| -------  | ------- | ------------------ |
+| Python   | 3.x     | :white_check_mark: |
+| VSCODE   | 1.66    | :white_check_mark: |
+| Notepad++| 8.x     | :white_check_mark: |
+
+## Linguagens e ferramentas utilizadas
 
 <a href="https://www.python.org/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="java" width="40" height="40"/> </a> 
 
