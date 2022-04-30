@@ -7,7 +7,7 @@ Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolv
 
 
 >_*O nosso sucesso depende da nossa capacidade de aprender e não de saber tudo.*_
->__Autor desconhecido_
+>_Autor desconhecido_
 
 
 ## Objetivo do Projeto
