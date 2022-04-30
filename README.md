@@ -53,7 +53,13 @@ pusher_client = pusher.Pusher(
 ```javascript
 pip install -r .\requirements.txt
 ```
+8. Para rodar o projeto de o seguinte comando
+```javascript
+py main.py
+```
+9. Se tudo estiver de acordo você devera acessar a interface grafica do projeto acessando a url local 
 
+> `http://localhost:5000/`
 
 ## Tutor
 
