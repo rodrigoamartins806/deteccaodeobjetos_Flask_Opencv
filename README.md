@@ -3,17 +3,17 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolvimento de sistemas da Faculdade Pitágoras de Ribeirão das Neves 
+Este é o resultado do trabalho de aprendizagem da turma de Análise e Desenvolvimento de sistemas da Faculdade Pitágoras Unidade Ribeirão das Neves do 2º e 3º Período do ano de 2022, projeto realizado para fins de aprendizagem e demonstração dos conhecimentos adquiridos em suas aulas.
 
 
 ## Objetivo do Projeto
 
-Este projeto tem o objetivo de detectar objetos e reinderizar este processo em uma pagina Web em tempo real e com uma sinalização do que foi 
-detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces.
+Este projeto tem o objetivo de detectar objetos e renderizar este processo em uma página Web em tempo real e com uma sinalização do que foi
+detectado, inicialmente o projeto foi adaptado para detectar pessoas e faces. 
 
 ## Ferramentas/compatibilidade para executar o projeto
 
-Para executar este projeto e importante que tenha o python instalado caso não tenha acesse este [link](https://www.python.org/downloads/), siga as instruções para baixar e istalar, lembre de configurar o path para usar o comando py, será necessario também um editor de sua preferencia, aqui listamos o [VScode]() e também o [Notepad++](https://notepad-plus-plus.org/downloads/v8.4/).
+Para executar este projeto é importante que tenha o python instalado caso não tenha acesse este [link](https://www.python.org/downloads/), siga as instruções para baixar e instalar, lembre de configurar o path para usar o comando py, será necessário também um editor de sua preferência, aqui listamos o [VScode]() e também o [Notepad++](https://notepad-plus-plus.org/downloads/v8.4/).
 
 |Descrição | Versão  | Supported          |
 | -------  | ------- | ------------------ |
@@ -66,7 +66,7 @@ pip install -r .\requirements.txt
 ```javascript
 py main.py
 ```
-9. Se tudo estiver de acordo você devera acessar a interface grafica do projeto acessando a url local 
+9. Se tudo estiver de acordo você deverá acessar a interface gráfica do projeto acessando a url local
 
 > `http://localhost:5000/`
 
